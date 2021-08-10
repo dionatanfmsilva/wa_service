@@ -1,0 +1,17 @@
+# Node modules
+node_modules
+
+# Adonis directory for storing tmp files
+tmp
+
+tokens
+
+# Environment variables, never commit this file
+.env
+
+# The development sqlite file
+database/*.sqlite
+
+# managed by open-wa. see: https://github.com/open-wa/wa-automate-nodejs/issues/1632
+**.data.json
+# end managed by open-wa. see: https://github.com/open-wa/wa-automate-nodejs/issues/1632
